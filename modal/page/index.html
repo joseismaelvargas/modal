@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/productos.css">
+    <meta name="description" content="SetUP accesorios y perifericos gamers" />
+    <meta
+      name="keywords"
+      content="gamer, perifericos, componentes, pc, graficas, ram, gabinete, rgb, mouse, teclado, mecanico, auriculares"
+    />
+    <meta name="author" content="Grupo 1" />
+  
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+     <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/style.css" />
+   
+    <title>HarDrive.Productos.com</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg pt-md-4 px-md-5 bg-black">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOGO</a> 
+            <form class="d-none d-md-block">
+              <div class="input-group">
+                <input
+                  type="search"
+                  class="form-control"
+                  placeholder="Buscar producto"
+                  aria-label="Buscar producto"
+                />
+                <button
+                  class="btn btn-outline-secondary text-light"
+                  type="button"
+                >
+                  <i class="bi bi-search"></i>
+                </button>
+              </div>
+            </form>
+            <div>
+              <a href="#" class="text-decoration-none text-light d-md-none">
+                <i class="bi bi-cart3 fs-2" data-bs-toggle="modal" data-bs-target="#mi-modal">
+                </i>
+                <!-- <i class="bi bi-cart3 fs-1 align-bottom ms-md-3 d-md-none"></i> -->
+              </a>
+              <a href="#" class="text-decoration-none text-light mx-3 d-md-none">
+                <i class="bi bi-person-circle fs-1 align-bottom"></i>
+              </a>
+              <a href="#" class="text-decoration-none text-light d-md-none">
+                <i class="bi bi-search fs-1 align-bottom me-2"></i>
+              </a>
+              <button
+                class="navbar-toggler d-lg-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div
+              class="collapse navbar-collapse justify-content-md-end"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav align-items-md-center">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active fs-5 me-3"
+                    aria-current="page"
+                    href="#"
+                    >Registro</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5 me-3" href="#">¿Quienes somos?</a>
+                </li>
+                <li class="nav-item dropdown fs-5">
+                  <a
+                    class="nav-link dropdown-toggle me-3"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Productos
+                  </a>
+                  <ul class="dropdown-menu bg-black py-1 border-0 rounded-0">
+                    <li>
+                      <a class="dropdown-item px-3" href="#1">Más vendidos</a>
+                    </li>
+                    <li><a class="dropdown-item px-3" href="#2">Juegos</a></li>
+                    <li>
+                      <a class="dropdown-item px-3" href="#2">Consolas</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item px-3" href="#2">Controles</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item px-3" href="#2">Perifericos</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fs-5 me-3" href="#5">Ofertas</a>
+                </li>
+  
+                <li class="nav-item dropdown fs-5">
+                  <a
+                    class="nav-link dropdown-toggle me-3"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Más
+                  </a>
+                  <ul class="dropdown-menu bg-black py-1 border-0 rounded-0">
+                    <li>
+                      <a class="dropdown-item px-3" href="#">Contactanos</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item me-3 d-none d-md-flex">
+                  <a
+                    class="nav-link fs-5 d-inline-flex flex-row-reverse align-items-center"
+                    href="#"
+                    >Entrar
+                    <i class="bi bi-person-circle pe-2 fs-2"></i>
+                  </a>
+                </li>   
+                <li class="nav-item me-3 d-none d-md-flex"> 
+                 
+                   <a class="nav-link" href="#"> 
+                   
+                  <i class="bi bi-cart3 fs-2" data-bs-toggle="modal" data-bs-target="#mi-modal">
+                    </i>
+                      
+                   </a> 
+                </li> 
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+     
+      
+    </div>
+   
+     <!--modal -->
+    <div class="modal fade right" id="mi-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header"> 
+                 
+                  <h1 class="modal-title" id="exampleModalLabel">CARRITO <i class="bi bi-cart3"></i></h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                 
+              </div>  
+              <div class="modal-body">
+               <div class="container-Carrito">
+           <img class="imgCarrito"  src="img/imgCarrito/Producto-7.jpg" alt=""> 
+           
+           
+           <p class="precioCarrito">$60.000.00</p>
+           <p class="nombreCarrito">Pcgam</p>
+           <i class="precioCarrito bi bi-x-lg"></i>
+          
+                                       
+          </div>
+          <div class="container-Carrito">
+            <img class="imgCarrito"  src="img/imgCarrito/Producto-14.jpg" alt=""> 
+            
+            
+            <p class="precioCarrito">$45.000.00</p>
+            <p class="nombreCarrito">SillaG</p>
+            <i class="precioCarrito bi bi-x-lg"></i>
+           
+                                        
+           </div>
+           <div class="container-Carrito">
+            <img class="imgCarrito"  src="img/imgCarrito/Producto-6.jpg" alt=""> 
+            
+            
+            <p class="precioCarrito">$20.000.00</p>
+            <p class="nombreCarrito">Monitor</p>
+            <i class="precioCarrito bi bi-x-lg"></i>
+           
+                                        
+           </div>
+           <div class="container-Carrito">
+            <img class="imgCarrito"  src="img/imgCarrito/acsesorio6.png" alt=""> 
+            
+            
+            <p class="precioCarrito">$20.000.00</p>
+            <p class="nombreCarrito">Monitor</p>
+            <i class="precioCarrito bi bi-x-lg"></i>
+           
+                                        
+           </div>
+              </div>
+            
+             
+  
+     
+  
+          </div>
+            <div class="modal-footer">
+        <h2>TOTAL=$145.000.00</h2>
+  
+         </div>
+  
+      
+              
+      </div>
+    </div>  
+    
+
+    
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
